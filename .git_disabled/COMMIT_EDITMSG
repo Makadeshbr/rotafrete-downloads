@@ -1,0 +1,44 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   RotaFrete-release.apk
+#	modified:   app.json
+#	modified:   app/(auth)/login.tsx
+#	modified:   app/(tabs)/_layout.tsx
+#	modified:   app/(tabs)/edit-profile.tsx
+#	deleted:    app/(tabs)/expenses/_layout.tsx
+#	modified:   app/(tabs)/expenses/index.tsx
+#	new file:   app/(tabs)/financeiro.tsx
+#	modified:   app/(tabs)/history.tsx
+#	modified:   app/(tabs)/index.tsx
+#	modified:   app/(tabs)/maintenance.tsx
+#	modified:   app/_layout.tsx
+#	renamed:    app/(tabs)/expenses/fuel.tsx -> app/fuel.tsx
+#	renamed:    app/(tabs)/expenses/tolls.tsx -> app/tolls.tsx
+#	new file:   functions/maintenance-reminder.ts
+#	new file:   gradle_error.txt
+#	new file:   gradle_error2.txt
+#	new file:   gradle_error3.txt
+#	new file:   gradle_error4.txt
+#	modified:   package-lock.json
+#	modified:   package.json
+#	new file:   plugins/withFirebaseMessagingFix.js
+#	new file:   src/components/common/AssistenteFAB.tsx
+#	new file:   src/components/common/index.ts
+#	new file:   src/components/dashboard/ConquistasCard.tsx
+#	new file:   src/components/dashboard/LucroHeroCard.tsx
+#	new file:   src/components/dashboard/StreakCounter.tsx
+#	new file:   src/components/dashboard/index.ts
+#	modified:   src/constants/pricing.ts
+#	modified:   src/services/freight-service.ts
+#	modified:   src/services/push.ts
+#	modified:   src/store/index.ts
+#	modified:   src/store/useDespesasStore.ts
+#	modified:   src/store/useManutencaoStore.ts
+#	new file:   src/store/useMetasStore.ts
+#	modified:   src/store/useResumoFinanceiroStore.ts
+#	modified:   src/store/useRotasStore.ts
+#

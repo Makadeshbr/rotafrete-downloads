@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "RotaFrete",
+    "slug": "rotafrete",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "rotafrete",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rotafrete.app",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBSIb8dplnpJRYACe-W9v_3HtpSCYArVP4"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F172A"
+      },
+      "package": "com.rotafrete.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBSIb8dplnpJRYACe-W9v_3HtpSCYArVP4"
+        }
+      },
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "POST_NOTIFICATIONS"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging",
+      [
+        "expo-notifications",
+        {
+          "color": "#3B82F6"
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      "./plugins/withFirebaseMessagingFix"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b040641f-622c-4f0f-bf6c-6ae39d7e8c73"
+      }
+    },
+    "owner": "allanfsouza"
+  }
+}

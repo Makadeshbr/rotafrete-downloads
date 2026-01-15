@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 0eb4987ae73af2e47e80b4728831cf63caf13e73 Allan Felipe de Souza <allanwesy17@gmail.com> 1767562788 -0300	commit (initial): Initial commit
+0eb4987ae73af2e47e80b4728831cf63caf13e73 15e20e8e957518bcfc10a8b3bf4fa0a24833c9a4 Allan Felipe de Souza <allanwesy17@gmail.com> 1767563802 -0300	commit: Add real PNG assets for icons and splash screen
+15e20e8e957518bcfc10a8b3bf4fa0a24833c9a4 01db1864866bc7ff896bc914a18176f41095d31d Allan Felipe de Souza <allanwesy17@gmail.com> 1767564452 -0300	commit: Update package.json and prebuild android
