@@ -11,6 +11,22 @@ Demo oficial do [Aether Platform](https://aether-admin-coral.vercel.app) - Backe
 
 ---
 
+## 📦 Download APK - Versão v4.6.0
+
+**[⬇️ Baixar RotaFrete v4.6.0 (APK Standalone - 93 MB)](https://github.com/Makadeshbr/rotafrete-downloads/raw/main/rotafrete-v4.6.0-standalone.apk)**
+
+### 📲 Como Instalar
+
+1. Baixe o arquivo APK usando o link acima
+2. No seu dispositivo Android, vá em **Configurações > Segurança**
+3. Habilite **"Instalar apps de fontes desconhecidas"**
+4. Abra o arquivo APK baixado e toque em **Instalar**
+
+> ✅ **APK Standalone** - Não precisa do Expo Go
+> ✅ **Android 7.0+** (API 24) ou superior
+
+---
+
 ## ✨ Features
 
 ### 📊 Controle de Rotas
