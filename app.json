@@ -2,7 +2,7 @@
   "expo": {
     "name": "RotaFrete",
     "slug": "rotafrete",
-    "version": "1.0.0",
+    "version": "4.6.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "rotafrete",
@@ -24,6 +24,7 @@
       }
     },
     "android": {
+      "versionCode": 46000,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0F172A"
@@ -38,7 +39,12 @@
         "RECEIVE_BOOT_COMPLETED",
         "VIBRATE",
         "WAKE_LOCK",
-        "POST_NOTIFICATIONS"
+        "POST_NOTIFICATIONS",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION"
       ],
       "googleServicesFile": "./google-services.json"
     },
@@ -59,6 +65,17 @@
           "color": "#3B82F6"
         }
       ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "O RotaFrete precisa acessar sua localização para calcular a rota mesmo com o app em segundo plano.",
+          "locationAlwaysPermission": "Permitir \"o tempo todo\" para tracking preciso da rota.",
+          "locationWhenInUsePermission": "Precisamos da sua localização para calcular a rota.",
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true
+        }
+      ],
+      "expo-task-manager",
       "@react-native-community/datetimepicker",
       "./plugins/withFirebaseMessagingFix"
     ],
