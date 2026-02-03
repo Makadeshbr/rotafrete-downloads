@@ -20,9 +20,24 @@
                 "buildType": "apk"
             }
         },
+        "release": {
+            "distribution": "internal",
+            "developmentClient": false,
+            "android": {
+                "buildType": "apk",
+                "gradleCommand": ":app:assembleRelease"
+            }
+        },
         "production": {
             "android": {
                 "buildType": "app-bundle"
+            }
+        },
+        "local": {
+            "distribution": "internal",
+            "android": {
+                "buildType": "apk",
+                "gradleCommand": ":app:assembleRelease"
             }
         }
     },
