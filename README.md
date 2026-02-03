@@ -2,11 +2,11 @@
 
 App de controle de ganhos para motoristas de transportadora.
 
-## 🚀 Versão Atual: v4.6.0
+## 🚀 Versão Atual: v4.6.1
 
 ### 📦 Download
 
-**[⬇️ Baixar RotaFrete v4.6.0 (93 MB)](https://github.com/Makadeshbr/rotafrete-downloads/raw/main/rotafrete-v4.6.0-standalone.apk)**
+**[⬇️ Baixar RotaFrete v4.6.1 (93 MB)](https://github.com/Makadeshbr/rotafrete-downloads/raw/main/rotafrete-v4.6.1-standalone.apk)**
 
 ### 📋 Requisitos
 
@@ -31,6 +31,11 @@ App de controle de ganhos para motoristas de transportadora.
 - Prévia de rotas com Google Maps
 
 ### 🔄 Histórico de Versões
+
+#### v4.6.1 (03/02/2026)
+- Correção: Problema de crash ao iniciar o app
+- Correção: Configuração de variáveis de ambiente em produção
+- Melhoria: Estabilidade geral do aplicativo
 
 #### v4.6.0 (02/02/2026)
 - Versão inicial de distribuição pública
